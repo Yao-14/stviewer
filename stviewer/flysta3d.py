@@ -17,7 +17,7 @@ from .app import standard_html
 
 
 def drosophila_E7_9h_dataset(
-    dir_path="../data/drosophila-E7-9h-models",
+    dir_path="./data/drosophila-E7-9h-models",
 ):
     # Generate anndata object
     adata = ad.read_h5ad(filename=os.path.join(dir_path, "E7-9h_cellbin.h5ad"))
