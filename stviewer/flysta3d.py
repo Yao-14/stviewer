@@ -21,6 +21,7 @@ def drosophila_E7_9h_dataset(
 ):
     # Generate anndata object
     adata = ad.read_h5ad(filename=os.path.join(dir_path, "E7-9h_cellbin.h5ad"))
+    adata.X = adata.layers["X_log1p"]
 
     # Generate point cloud models
     pc_model_files = [
