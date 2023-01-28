@@ -7,9 +7,8 @@ from typing import Optional
 
 import matplotlib.pyplot as plt
 from anndata import AnnData
-from trame.widgets import vuetify
-
 from pyvista.plotting.colors import hexcolors
+from trame.widgets import vuetify
 
 from ..pv_pipeline import PVCB
 

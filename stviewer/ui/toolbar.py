@@ -3,9 +3,8 @@ try:
 except ImportError:
     from typing_extensions import Literal
 
-from trame.widgets import vuetify
-
 from pyvista import BasePlotter
+from trame.widgets import vuetify
 
 from ..pv_pipeline import Viewer
 from .utils import button, checkbox

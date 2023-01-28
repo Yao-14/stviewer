@@ -3,10 +3,9 @@ try:
 except ImportError:
     from typing_extensions import Literal
 
-from trame.widgets import vuetify
-
 from pyvista import BasePlotter
 from pyvista.trame import PyVistaLocalView, PyVistaRemoteLocalView, PyVistaRemoteView
+from trame.widgets import vuetify
 
 from .toolbar import Viewer
 

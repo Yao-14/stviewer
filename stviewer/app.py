@@ -6,7 +6,6 @@ except ImportError:
 from typing import Optional
 
 from anndata import AnnData
-
 from pyvista import BasePlotter
 
 from .assets import asset_manager
